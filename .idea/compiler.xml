@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SchoolInformator" />
         <module name="WebAplication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SchoolInformator" target="1.8" />
       <module name="WebAplication" target="1.8" />
     </bytecodeTargetLevel>
   </component>
