@@ -49,4 +49,19 @@ public class StudentsServices {
         return json;
     }
 
+    public void generateListOfStudents(){
+        Student student1 = new Student("Eric Wayne", 3, "a", 0);
+        listOfStudents.add(student1);
+        Student student2 = new Student("Christina Pew", 3, "a", 5);
+        listOfStudents.add(student2);
+        Student student3 = new Student("Michael Thomson", 3, "a", 2);
+        listOfStudents.add(student3);
+        Student student4 = new Student("Dave Dail", 3, "b", 6);
+        listOfStudents.add(student4);
+        Student student5 = new Student("Marica Gomez", 3, "b", 10);
+        listOfStudents.add(student5);
+        Student student6 = new Student("Robert White", 3, "b", 1);
+        listOfStudents.add(student6);
+    }
+
 }

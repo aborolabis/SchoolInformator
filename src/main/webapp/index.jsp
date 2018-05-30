@@ -13,25 +13,25 @@
     <h2>Get information about students in our school.</h2><br/>
 
     <p>Find all our students: </p>
-    <form method="get" action="/app/pupils/all">
+    <form method="get" action="/app/all">
         <input type="submit" value="Find">
     </form> <br/>
 
     <p>Find student by his name: </p>
-    <form method="get" action="/app/pupils/findbyname">
+    <form method="get" action="/app/findbyname">
         Name of the student: <input type="text" name="name">
         <input type="submit" value="FIND">
     </form><br/>
 
     <p>Find students from one class:</p>
-    <form class="centre" method="get" action="/app/pupils/findbyclass">
+    <form class="centre" method="get" action="/app/findbyclass">
         Class number <input type="text" name="classNumber">
         Class letter: <input type="text" name="classLetter">
         <input type="submit" value="FIND">
     </form><br/>
 
     <p>Get all students in JSON:</p>
-    <form method="get" action="/app/pupils/tojson">
+    <form method="get" action="/app/tojson">
         <input type="submit" value="Find">
     </form>
 </div>

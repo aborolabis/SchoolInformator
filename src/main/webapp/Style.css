@@ -20,5 +20,8 @@ body{
 #tablee{
     margin: auto;
     width: 800px;
-    border: 2px solid rgb(131, 47, 91);
+    border: 2px solid lightcoral;
+    color: bisque;
+    text-align: center;
+    font-size: 12px;
 }
